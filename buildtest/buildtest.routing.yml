@@ -1,0 +1,8 @@
+buildtest.page:
+  path: '/buildtest'
+  defaults:
+    _controller: '\Drupal\buildtest\Controller\buildtestController::content'
+    _form: '\Drupal\buildtest\Form\form'
+    _title: 'This is a test page'
+  requirements:
+    _permission: 'access content'
