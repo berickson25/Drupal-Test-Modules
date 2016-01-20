@@ -242,9 +242,7 @@ class Support_OrganizationController extends FormBase {
 	* {@inheritdoc}
 	*/
 	public function validateForm(array &$form, FormStateInterface $form_state){
-		if (!UrlHelper::isValid($form_state->getValue('video'), TRUE)) {
-			$form_state->setErrorByName('video', $this->t('The Video URL "%url" is invalid.', array('%url' => $form_state->getValue('video'))));
-		}
+		
 	}
 	/**
 	* {@inheritdoc}
