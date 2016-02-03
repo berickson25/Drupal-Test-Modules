@@ -1,0 +1,5 @@
+name: Submit Form
+description: 'This will be a form that can be submitted and data will be able to retrieved from it'
+core: 8.x
+type: module
+package: custom

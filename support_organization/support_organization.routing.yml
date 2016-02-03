@@ -1,7 +1,0 @@
-support_organization:
-  path: '/liub/support-organization'
-  defaults:
-    _form: '\Drupal\support_organization\Controller\Support_OrganizationController'
-    _title: 'Support Organization Page'
-  requirements:
-    _permission: 'access content'

@@ -1,0 +1,15 @@
+SubmitForm.page:
+  path: '/SubmitForm'
+  defaults:
+    _controller: '\Drupal\SubmitForm\Controller\SubmitFormController::content'
+    _title: 'Form Submission Site'
+  requirements:
+    _permission: 'access content'
+
+SubmitForm.form:
+  path: '/SubmitForm/Form'
+  defaults:
+    _form: '\Drupal\SubmitForm\Form\FormToSubmit'
+    _title: 'This is the form to submit'
+  requirements:
+    _permission: 'access content'
